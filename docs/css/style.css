@@ -1,0 +1,72 @@
+/* General styles for the entire document */
+html, body {
+    background: #0f1a14; 
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    letter-spacing: 1px;
+}
+
+/* Style for links */
+a {
+    color: #ff9900;
+}
+a:hover {
+    color: #cc7a00;
+}
+
+/* Style for the main content */
+body {
+	font-family: Verdana, Geneva, sans-serif;
+    font-size: 100%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2.5% 2.5% 0;
+    line-height: 1.8;
+	background: #1c2a21;
+    color: #e6e6e6; 
+}
+body::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+section {
+    margin-bottom: 5em;
+}
+h2 {
+    margin-top: 2em;
+}
+h3 {
+    margin-top: 1em;
+}
+p {
+	margin-bottom: 1em;
+}
+
+/* Style for images */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right {
+    float: right;
+    margin-left: 20px;
+}
+
+.left {
+    float: left;
+    margin-right: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
