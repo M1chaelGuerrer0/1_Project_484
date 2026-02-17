@@ -3,7 +3,7 @@ html, body {
     background: #0f1a14; 
     margin: 0;
 }
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, p {
     margin: 0;
     padding: 0;
 }
@@ -60,6 +60,12 @@ h3 {
 p {
 	margin-bottom: 1em;
 }
+aside {
+    display: inline-block;
+	padding: 0.5em;
+	background:#0f1a14;
+	color: white;
+}
 
 /* Style for images */
 .center {
@@ -81,3 +87,5 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+
