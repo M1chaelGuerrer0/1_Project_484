@@ -26,53 +26,88 @@
         </header>
         <main role="main">
             <article role="article">
-                <section>
+                <section id="loyalty-and-sacrifice">
                     <h2>Loyalty and Sacrifices</h2>
-                    <p>
-                        <img
-                            src="images/loyalty.png"
-                            alt="The Boss asking naked snake who he is loyal to"
-                            class="right"
-                        />
-                        One of the central themes of Metal Gear Solid 3 is loyalty and the cost that comes with it. Throughout the game, Snake is forced to question what it truly means to serve one’s country. The Boss embodies ultimate loyalty, willingly sacrificing her reputation and life for the greater good. Her actions challenge the idea that loyalty is always rewarded, suggesting instead that true patriotism may require personal loss and moral compromise.
-                    </p>
+                    <!-- a spoiler template -->
+                    <template id="spoiler-loyalty-and-sacrifice">
+                        <div class="spoiler-box">
+                            <br>
+                            <p>
+                                <img
+                                    src="images/loyalty.png"
+                                    alt="The Boss asking naked snake who he is loyal to"
+                                    class="right"
+                                />
+                                One of the central themes of Metal Gear Solid 3 is loyalty and the cost that comes with it. Throughout the game, Snake is forced to question what it truly means to serve one’s country. The Boss embodies ultimate loyalty, willingly sacrificing her reputation and life for the greater good. Her actions challenge the idea that loyalty is always rewarded, suggesting instead that true patriotism may require personal loss and moral compromise.
+                            </p>
+                        </div>
+                    </template>
+                    <button onclick="revealSpoiler('spoiler-loyalty-and-sacrifice', 'loyalty-and-sacrifice')">
+                        Spoiler
+                    </button>
                 </section>
-                <section>
+                <section id="patriotism-and-moral-ambiguity">
                     <h2>Patriotism and Moral Ambiguity</h2>
-                    <p>
-                        The game explores the complexity of patriotism by showing how governments manipulate individuals for political gain. Snake begins the mission believing he is serving a just cause, but later discovers that the truth is far more complicated. The revelation about The Boss forces him to confront the reality that nations do not always act in the interest of truth or honor. This moral ambiguity becomes a defining moment in his transformation.
-                    </p>
-                    <img
-                            src="images/boss_death.png"
-                            alt="Snake defeating the Boss in the final battle of Operation Snake Eater"
-                            class="center"
-                        />
+                    <!-- a spoiler template -->
+                    <template id="spoiler-patriotism-and-moral-ambiguity">
+                        <div class="spoiler-box">
+                            <br>
+                            <p>
+                                The game explores the complexity of patriotism by showing how governments manipulate individuals for political gain. Snake begins the mission believing he is serving a just cause, but later discovers that the truth is far more complicated. The revelation about The Boss forces him to confront the reality that nations do not always act in the interest of truth or honor. This moral ambiguity becomes a defining moment in his transformation.
+                            </p>
+                            <img
+                                    src="images/boss_death.png"
+                                    alt="Snake defeating the Boss in the final battle of Operation Snake Eater"
+                                    class="center"
+                            />
+                        </div>
+                    </template>
+                    <button onclick="revealSpoiler('spoiler-patriotism-and-moral-ambiguity', 'patriotism-and-moral-ambiguity')">
+                        Spoiler
+                    </button>
                 </section>
-                <section>
+                <section id="cost-of-war">
                     <h2>The Cost of War</h2>
-                    <p>
-                        <img
-                            src="images/big_boss2.png"
-                            alt="Big Boss Saluting the Boss's grave after learning the truth about her sacrifice"
-                            class="right"
-                            width="400"
-                        />
-                        Unlike many action games that glorify combat, Snake Eater emphasizes the physical and emotional toll of war. The wilderness survival mechanics reinforce vulnerability, while encounters like The Sorrow force players to confront the consequences of their actions. The game presents war not as heroic spectacle, but as a cycle of loss, sacrifice, and political manipulation.
-                    </p>
+                    <template id="spoiler-cost-of-war">
+                        <div class="spoiler-box">
+                            <br>
+                            <p>
+                                <img
+                                    src="images/big_boss2.png"
+                                    alt="Big Boss Saluting the Boss's grave after learning the truth about her sacrifice"
+                                    class="right"
+                                    width="400"
+                                />
+                                Unlike many action games that glorify combat, Snake Eater emphasizes the physical and emotional toll of war. The wilderness survival mechanics reinforce vulnerability, while encounters like The Sorrow force players to confront the consequences of their actions. The game presents war not as heroic spectacle, but as a cycle of loss, sacrifice, and political manipulation.
+                            </p>
+                        </div>
+                    </template>
+                    <button onclick="revealSpoiler('spoiler-cost-of-war', 'cost-of-war')">
+                        Spoiler
+                    </button>
                 </section>
-                <section>
+                <section id="legacy">
                     <h2>Identity and Legacy</h2>
-                    <p>
-                        <img
-                            src="images/big_boss3.png"
-                            alt="Big Boss Saluting"
-                            class="left"
-                            width="400"
-                        />
-                        Snake's journey ultimately becomes one of identity. By the end of the game, he is no longer simply a soldier following orders. Being awarded the title “Big Boss” marks the beginning of a new identity shaped by disillusionment and independence. His legacy influences future generations and reshapes the ideological conflicts that define the Metal Gear series.
-                    </p>
+                    <template id="spoiler-legacy">
+                        <div class="spoiler-box">
+                            <br>
+                            <p>
+                                <img
+                                    src="images/big_boss3.png"
+                                    alt="Big Boss Saluting"
+                                    class="left"
+                                    width="400"
+                                />
+                                Snake's journey ultimately becomes one of identity. By the end of the game, he is no longer simply a soldier following orders. Being awarded the title “Big Boss” marks the beginning of a new identity shaped by disillusionment and independence. His legacy influences future generations and reshapes the ideological conflicts that define the Metal Gear series.
+                            </p>
+                        </div>
+                    </template>    
+                    <button onclick="revealSpoiler('spoiler-legacy', 'legacy')">
+                        Spoiler
+                    </button>
                 </section>
             </article>
         </main>
+        <script src="js/script.js"></script>  
     </body>
 </html>

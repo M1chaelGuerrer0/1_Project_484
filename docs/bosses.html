@@ -28,10 +28,34 @@
                 <header>
                     <h2>Overview</h2>
                     <p>Throughout the game, players will encounter a variety of bosses that they must defeat in order to progress through the story. These bosses are unique and require players to use different strategies and tactics to defeat them.</p>                    
+                    <aside role="boss-search">
+                        <!-- The <datalist> element provides predefined boss name suggestions for the input field.
+                            The autocomplete, enterkeyhint, and inputmode attributes enhance usability on browsers 
+                            and mobile devices. -->                       
+                        <label for="boss-search">Jump to a Boss:</label>
+                        <input 
+                            list="boss-list" 
+                            id="boss-search" 
+                            name="boss-search"
+                            autocomplete="on"
+                            enterkeyhint="go"
+                            inputmode="search"
+                            placeholder="Select a boss..."
+                        >
+                        <datalist id="boss-list">
+                            <option value="Ocelot">
+                            <option value="The Pain">
+                            <option value="The Fear">
+                            <option value="The End">
+                            <option value="The Fury">
+                            <option value="The Sorrow">
+                            <option value="Colonel Volgin">
+                            <option value="The Boss">
+                        </datalist>
+                    </aside>                        
                 </header>
                 <section> 
-                    <h2>Ocelot</h2>
-                    
+                    <h2 id="ocelot">Ocelot</h2>
                     <p>
                         <img
                             src="images/ocelot.gif"
@@ -47,14 +71,6 @@
                 <section>
                     <h2>Cobra Unit</h2>
                     <p>The <em>Cobra Unit</em>, a group of elite soldiers who follow The Boss. Each member represents a specific emotion.</p>
-                    <ul>
-                        <li><a href="#pain">The Pain</a></li>
-                        <li><a href="#fear">The Fear</a></li>
-                        <li><a href="#end">The End</a></li>
-                        <li><a href="#fury">The Fury</a></li>
-                        <li><a href="#sorrow">The Sorrow</a></li>
-                        <li><a href="#the-boss">The Boss</a></li>
-                    </ul>
                     <h3 id="pain">The Pain</h3>
                     <p>
                         <img
@@ -125,7 +141,7 @@
                     </aside>
                 </section>
                 <section>
-                    <h2>Colonel Volgin</h2>
+                    <h2 id="volgin">Colonel Volgin</h2>
                     <p>
                         <img
                             src="images/volgin.png"
@@ -171,5 +187,9 @@
                     </aside>
             </article>
         </main>
+        <script src="js/script.js"></script>                    
     </body>
 </html>
+
+
+

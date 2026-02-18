@@ -66,7 +66,39 @@
                     />
                     <p>The game has been called one of the most emotionally intense games in the entire Metal Gear series. It uses a combination of cinematic cut scenes and character dialogue to create an emotional connection between the player and the themes of loyalty, sacrifice, and how difficult it can be for people to remain morally pure while being patriotic. The way that Snake relates to his mentor, <a href="bosses.html#the-boss"><em>The Boss</em></a>, is what makes this game so emotionally connected to the overall plot of the series and plays a major role in Snake's transformation from a regular soldier into one of the most important characters in the Metal Gear series.</p>
                 </section>
+                <section>
+                    <h2>Quiz</h2>
+                    <p>A short quiz to test your knowledge of Metal Gear Solid 3: Snake Eater.</p>
+                    <!-- The <output> element dynamically displays the 
+                        calculated quiz score after the user submits answers -->
+                    <form id="quiz-form">
+
+                        <p>1. Who is Naked Snake's Mentor?</p>
+                        <label><input type="radio" name="q1" value="wrong"> Ocelot</label><br>
+                        <label><input type="radio" name="q1" value="correct"> The Boss</label><br>
+                        <label><input type="radio" name="q1" value="wrong"> Colonel Volgin</label><br>
+                
+                        <p>2. What is the "metal gear" called in MGS3?</p>
+                        <label><input type="radio" name="q2" value="correct"> Shagohod </label><br>
+                        <label><input type="radio" name="q2" value="wrong"> Metal Gear REX</label><br>
+                        <label><input type="radio" name="q2" value="wrong"> Davy Crockett</label><br>
+                
+                        <p>3. What title is Snake given at the end?</p>
+                        <label><input type="radio" name="q3" value="correct"> Big Boss</label><br>
+                        <label><input type="radio" name="q3" value="wrong"> Colonel</label><br>
+                        <label><input type="radio" name="q3" value="wrong"> Patriot</label><br>
+                
+                        <br>
+                        <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+                    </form>
+                
+                    <p>
+                        Score:
+                        <output id="quiz-score">0</output> / 3
+                    </p>
+                </section>
             </article>
         </main>
+        <script src="js/script.js"></script>
     </body>
 </html>

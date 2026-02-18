@@ -88,4 +88,19 @@ img {
     height: auto;
 }
 
+/* Style for the spoiler button */
+button {
+    background-color: #1c2a21;      /* dark green */
+    color: #ff9900;                /* orange accent */
+    border: 2px solid #556b2f;     /* olive border */
+    padding: 8px 16px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
 
+button:hover {
+    background-color: #2f4636;
+    border-color: #ff9900;
+}
