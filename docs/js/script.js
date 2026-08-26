@@ -9,6 +9,9 @@ function revealSpoiler(templateId, sectionId) {
 
     const section = document.getElementById(sectionId);
     section.appendChild(clone);
+
+    const button = section.querySelector("button");
+    button.style.display = "none";
 }
 
 // Grade the quiz by counting the number of correct answers

@@ -8,14 +8,29 @@ h1, h2, h3, p {
     padding: 0;
 }
 h1 {
+    font-size: 4em;
     border-bottom: 3px solid #556b2f;  /* olive */
-    padding-bottom: 10px;
-    margin-bottom: 25px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
 }
 h2 {
+    font-size: 2.5em;
     border-bottom: 1.5px solid #556b2f;
-    padding-bottom: 6px;
     margin-bottom: 15px;
+}
+
+.boss-title h2 {
+    font-size: 2em;
+    border-bottom: 1.5px solid #556b2f;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
 }
 
 h1, h2, h3 {
@@ -62,30 +77,70 @@ p {
 }
 aside {
     display: inline-block;
-	padding: 0.5em;
+    height: 2.2em;
+    line-height: 2.2em;
+    padding: 0 0.5em;
+    margin: 20px 0;
 	background:#0f1a14;
-	color: white;
+	color: white; 
 }
 
-/* Style for images */
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+/* Style for images and image text layout */
+.image-text {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
 }
 
-.right {
-    float: right;
-    margin-left: 20px;
+.image-text img {
+    width: auto;
+    height: 300px;
+    flex-shrink: 0;
+    padding-bottom: 15px;
 }
 
-.left {
-    float: left;
-    margin-right: 20px;
+.text-content {
+    flex: 1;
 }
-img {
-    max-width: 100%;
-    height: auto;
+
+.text-content p {
+    margin-top: 0;
+}
+
+.image-right {
+    flex-direction: row-reverse;
+}
+
+.banner-text {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: row-reverse;
+}
+
+.banner-text img {
+    width: auto;
+    height: 150px;
+    flex-shrink: 0;
+}
+
+.banner-text nav {
+    flex: 1;
+    margin: 0;
+}
+
+.content-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.content-center img {
+    width: auto;
+    height: 300px;
+    flex-shrink: 0;
 }
 
 /* Style for the spoiler button */
