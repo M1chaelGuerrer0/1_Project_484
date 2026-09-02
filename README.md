@@ -1,5 +1,5 @@
-# Project 1
-This was my first project for my COMP 484 course about HTML, CSS, and JavaScript.
+# Project Overview
+This was a project for my COMP 484 course about HTML, CSS, and JavaScript.
 
 The project was to create a website with HTML and CSS using three unique HTML elements and three unique HTML attributes.
 
@@ -23,6 +23,10 @@ For the attributes, I used &lt;autocomplete&gt;, &lt;enterkeyhint&gt;, and &lt;i
 * &lt;inputmode&gt;
   * Was used to tell mobile devices to display a search-optimized keyboard when the input is selected.
 
+## What I learned
+* I learned how to use HTML and CSS for my own website.
+* I learned some elements and attributes on my own outside of what was taught in class.
+* I learned how to use JavaScript to interact with the project.
 
 **GitHub Pages Link:** 
 [https://m1chaelguerrer0.github.io/MGS3-Website/](https://m1chaelguerrer0.github.io/MGS3-Website/)
