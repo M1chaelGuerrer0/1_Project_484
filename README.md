@@ -1,5 +1,5 @@
 # Project Overview
-This was a project for my COMP 484 course about HTML, CSS, and JavaScript.
+This was a project for my COMP 484 course about web development.
 
 The project was to create a website with HTML and CSS using three unique HTML elements and three unique HTML attributes.
 
